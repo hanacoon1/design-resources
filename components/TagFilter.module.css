@@ -1,0 +1,14 @@
+.tagFilter {
+    margin-bottom: 20px;
+  }
+  
+  .tagFilter button {
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
