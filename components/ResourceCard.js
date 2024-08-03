@@ -13,7 +13,7 @@ const ResourceCard = ({ title, url, description, tags }) => {
       <p>{description}</p>
       <div className={styles.tags}>
         {tags.map(tag => (
-          <span key={tag} className={styles.tag}>{tag}</span>
+          <p><span key={tag} className={styles.tag}>{tag}</span></p>
         ))}
       </div>
     </div>

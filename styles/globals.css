@@ -1,36 +1,173 @@
+/* ------- GLOBAL COLOR STYLES ------- */
+
+:root {
+  --white: #ffffff;
+  --background: #fbf2ea;
+  --neutral: #fddfc3;
+  --dark-grey: #0a1929;
+  --light-grey: #29323d;
+  --pink: #fdc9d9;
+  --red: #ff6247;
+  --orange: #ff9e6a;
+  --yellow: #ffbe00;
+  --green: #8edbcd;
+  --blue: #98c3f3;
+  --purple: #d8dcff;
+  --blue-rgb: 152, 195, 243;
+  --pink-20: rgba(253, 201, 217, 0.3);
+  --orange-20: rgba(255, 158, 106, 0.2);
+  --yellow-20: rgba(255, 190, 0, 0.2);
+  --purple-20: rgba(216, 220, 255, 0.3);
+  --nutshell-bg: #f7f7f7;
+  --nutshell-bg-dk: #0C0F33;
+}
+
+/* ------- WEBSITE BODY ------- */
+
 html,
 body {
-  background-color: #f8fafc;
-  padding: 0;
+  background-color: var(--background);
+  color: var(--light-grey);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+}
+
+main {
+ 
+}
+
+.container {
+ margin: 36px;
 }
 
 * {
   box-sizing: border-box;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* ------- TEXT STYLES ------- */
+
+/* Body text & links */
+
+strong {
+  font-weight: 700;
+}
+
+p,
+li,
+blockquote {
+  color: var(--light-grey);
+  font-size: 18px;
+  font-family:
+    "Lato",
+    Helvetica Neue,
+    sans-serif;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 982px) {
+  p,
+  li,
+  blockquote {
+    font-size: 14px !important;
+  }
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 30px;
+  padding-left: 8px;
+  font-size: 18px;
+}
+
+p > a,
+blockquote > a {
+  color: var(--light-grey);
+}
+
+p > a:hover,
+blockquote > a:hover {
+  color: var(--dark-grey);
+}
+
+/* Headers */
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+  line-height: 1.15em;
+}
+
+h2 {
+  margin-top: 5rem;
+}
+
+h1 {
+  color: var(--dark-grey);
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  font-weight: 700;
+  font-family: "Josefin Sans";
+}
+
+h2 {
+  color: var(--dark-grey);
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Josefin Sans";
+}
+
+h3 {
+  color: var(--dark-grey);
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Josefin Sans";
+}
+
+@media screen and (max-width: 982px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+/* Special */
+
+blockquote {
+  margin-left: 8px;
+  margin-right: 22px;
+  padding-left: 12px;
+  border-left: 2px solid #d1d6e0;
+  font-style: italic;
+  line-height: 30px;
 }
 
 code {
-  background: #e2e8f0;
+  background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-family:
+    Menlo,
+    Monaco,
+    Lucida Console,
+    Courier New,
+    monospace;
 }
