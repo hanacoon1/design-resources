@@ -16,8 +16,8 @@
   }
 
   .tagFilter button {
-    background-color: var(--blue);
-    color: var(--dark-grey);
+    background-color: var(--neutral);
+    color: var(--light-grey);
     font-size: 18px;
     font-family:
       "Lato",

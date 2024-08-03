@@ -11,13 +11,16 @@ const resources = [
     title: 'Designing for the Digital Age',
     url: 'https://example.com/resource1',
     description: 'A giant behemoth of a textbook about designing digital products. Remarkably helpful if you can make it through!',
-    tags: ['Books', 'Product design']
+    tags: ['Books', 'Product design'],
+    thumbnail: '/digital-age.jpg',
   },
   {
     title: 'What Can a Body Do?',
     url: 'https://example.com/resource2',
     description: 'About designing for all different bodies.',
-    tags: ['Books', 'Accessibility']
+    tags: ['Books', 'Accessibility'],
+    thumbnail: '/whatcanabodydo.jpg',
+
   },
   {
     title: 'The Component Library',
