@@ -37,8 +37,10 @@ main {
 }
 
 .container {
- margin: 36px;
+ margin: 64px;
 }
+
+
 
 * {
   box-sizing: border-box;
@@ -56,22 +58,15 @@ p,
 li,
 blockquote {
   color: var(--light-grey);
-  font-size: 18px;
+  font-size: 14px;
   font-family:
-    "Lato",
+    "Inconsolata",
     Helvetica Neue,
     sans-serif;
-  line-height: 1.7em;
+  line-height: 1.5em;
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 982px) {
-  p,
-  li,
-  blockquote {
-    font-size: 14px !important;
-  }
-}
 
 li {
   margin-bottom: 8px;
@@ -95,59 +90,33 @@ blockquote > a:hover {
 h1,
 h2,
 h3 {
-  margin-bottom: 1rem;
   line-height: 1.15em;
 }
 
 h2 {
-  margin-top: 5rem;
 }
 
 h1 {
   color: var(--dark-grey);
-  font-size: 56px;
-  letter-spacing: -1.68px;
+  font-size: 28px;
   font-weight: 700;
-  font-family: "Josefin Sans";
+  font-family: "Inconsolata";
 }
 
 h2 {
   color: var(--dark-grey);
-  font-size: 36px;
-  font-weight: 500;
-  font-family: "Josefin Sans";
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Inconsolata";
 }
 
 h3 {
   color: var(--dark-grey);
-  font-size: 24px;
-  font-weight: 500;
-  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Inconsolata";
 }
 
-@media screen and (max-width: 982px) {
-  h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 28px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-}
 
 /* Special */
 

@@ -1,33 +1,23 @@
 .tagFilter {
-    margin-bottom: 20px;
-    display: block;
-  }
-  
-  .tagFilter button {
-    margin-right: 10px;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;;
-  }
-  
-  .active {
-    background-color: var(--dark-grey) !important;
-    color: var(--white) !important;
-  }
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 
-  .tagFilter button {
-    background-color: var(--neutral);
-    color: var(--light-grey);
-    font-size: 18px;
-    font-family:
-      "Lato",
-      Helvetica Neue,
-      sans-serif;
-    line-height: 1.7em;
-    letter-spacing: 0.03em;
-      font-size: 14px !important;
-  }
-  
+.tagFilter button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--neutral);
+  color: var(--light-grey);
+  font-size: 14px !important;
+  font-family: "Inconsolata", Helvetica Neue, sans-serif;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
 
-
-  
+.active {
+  background-color: var(--dark-grey) !important;
+  color: var(--white) !important;
+}
